@@ -84,7 +84,7 @@ export default function HomePage() {
             {GENRES.map(g => (
               <button key={g} onClick={() => setGenre(g === 'Tất cả' ? '' : g)}
                 className={`flex-shrink-0 px-4 py-1.5 rounded-full text-xs font-semibold transition-all
-                  ${(genre === g || (g === 'Tất cả' && !genre)) ? 'bg-pink-400 text-white' : 'bg-white/8 text-white/50 hover:text-white'}`}
+                  ${(genre === g || (g === 'Tất cả' && !genre)) ? 'bg-pink-400 text-white' : 'bg-white/10 text-white/50 hover:text-white'}`}
               >
                 {g}
               </button>

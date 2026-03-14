@@ -111,7 +111,7 @@ export default function AudioStoriesPage() {
           {CATS.map(c => (
             <button key={c.id} onClick={() => setCategory(c.id)}
               className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition-all
-                ${category === c.id ? 'bg-pink-400 text-white' : 'bg-white/8 text-white/50 hover:text-white'}`}
+                ${category === c.id ? 'bg-pink-400 text-white' : 'bg-white/10 text-white/50 hover:text-white'}`}
             >
               {c.label}
             </button>
